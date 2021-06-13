@@ -15,7 +15,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:id="@+id/toolbar"
-                    android:background="#FCD100"
+                    android:background="#3DDC84"
                     android:theme = "@style/ThemeOverlay.AppCompat.Dark.ActionBar"
                     app:popupTheme = "@style/MenuStyle"
                     >
@@ -23,7 +23,7 @@
                             android:layout_width="30dp"
                             android:layout_height="30dp"
                             android:id="@+id/profile_image"
-                            android:background ="#FCD100"
+                            android:background ="#3DDC84"
                             />
 
                         <TextView
@@ -42,7 +42,7 @@
                 android:id="@+id/tab_layout"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="#FCD100"
+                android:background="#3DDC84"
                 app:tabSelectedTextColor="#000"
                 app:tabIndicatorColor="#000"
                 app:tabTextColor="#000"/>

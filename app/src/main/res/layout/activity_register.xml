@@ -9,7 +9,7 @@
     <androidx.appcompat.widget.Toolbar
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#FCD100">
+        android:background="#3DDC84">
 
         <include
             android:id="@+id/toolbar"
@@ -68,7 +68,7 @@
         android:layout_height="68dp"
         android:layout_marginHorizontal="20dp"
         android:layout_marginTop="450dp"
-        android:background="#FCF803"
+        android:background="#3DDC84"
         android:text="Register"
         android:textSize="25dp"
         tools:ignore="HardcodedText,SpUsage,UnusedAttribute" />

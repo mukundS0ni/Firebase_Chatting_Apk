@@ -14,7 +14,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="147dp"
         android:text="ChatApk"
-        android:textColor="#000"
+        android:textColor="#3DDC84"
         android:textSize="55sp"
         android:textStyle="bold" />
 
@@ -24,7 +24,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_marginTop="322dp"
-        android:background="#FCF803"
+        android:background="#3DDC84"
         android:textColor="#000"
         android:text="login"
         android:layout_marginRight="20dp"
@@ -36,7 +36,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/login"
         android:layout_marginTop="12dp"
-        android:background="#FCF803"
+        android:background="#3DDC84"
         android:text="register"
         android:layout_marginRight="20dp"
         android:layout_marginLeft="20dp"
