@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/bar_layot"
+        android:layout_below="@+id/toolbar"
+        android:layout_marginTop="-56dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolbar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:text="Login"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText" />
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:layout_below="@+id/toolbar"
+        android:layout_marginTop="134dp"
+        android:hint="Email"
+        app:met_floatingLabel="normal"
+        app:met_floatingLabelAlwaysShown="true"
+        tools:ignore="HardcodedText" />
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:layout_below="@+id/email"
+        android:layout_marginTop="41dp"
+        android:hint="Password"
+        app:met_floatingLabel="normal"
+        app:met_floatingLabelAlwaysShown="true"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:layout_below="@+id/password"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="26dp"
+        android:background="#fcf803"
+        android:text="Login"
+        android:textSize="25dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Forgot your Password?"
+        android:gravity="center"
+        android:layout_below="@+id/btn_login"
+        android:id="@+id/forgrt_password"
+        android:textStyle="bold"
+        android:layout_marginTop="8dp"
+        android:layout_alignParentRight="true"
+        android:textColor="#c26400"/>
+
+
+
+</RelativeLayout>
